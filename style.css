@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #aa7492;
+}
+.container {
+  width: 690px;
+  background: #fff;
+  border-radius: 7px;
+  padding: 2rem;
+}
+.wrapper {
+  border: 1px solid #bbb;
+  border-radius: 5px;
+}
+.wrapper .text-input {
+  display: flex;
+  border-bottom: 1px solid #bbb;
+}
+.text-input .to-text {
+  border-left: 1px solid #bbb;
+  border-radius: 0px;
+}
+.text-input textarea {
+  height: 250px;
+  width: 100%;
+  border: none;
+  outline: none;
+  background: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  resize: none;
+  font-size: 18px;
+}
+
+.controls,
+li,
+.icons,
+.icons i {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.controls {
+  list-style: none;
+  padding: 12px 15px;
+}
+.controls .row.from .icons {
+  border-right: 1px solid #bbb;
+  padding-right: 1rem;
+}
+.controls .row.to .icons {
+  border-right: 1px solid #bbb;
+  padding-right: 1rem;
+}
+.controls .icons {
+  width: 38%;
+}
+.controls .icons i {
+  color: #9f9f9f;
+  cursor: pointer;
+  font-size: 14px;
+  width: 50px;
+  justify-content: center;
+}
+.controls .row select {
+  border: none;
+  outline: none;
+  font-size: 18px;
+  background: none;
+}
+.controls .exchange {
+  color: #9f9f9f;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.container button {
+  width: 100%;
+  padding: 14px;
+  margin-top: 20px;
+  border: none;
+  outline: none;
+  background: #aa7492;
+  color: #fff;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
